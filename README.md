@@ -5,4 +5,4 @@ The Birdnet-Pi project focuses on the web UI and/or cloud-based, or at least ext
 
 
 
-
+![IMG_8122](https://github.com/user-attachments/assets/0480f58f-ee95-4cad-81f0-268dc7058c4a)
