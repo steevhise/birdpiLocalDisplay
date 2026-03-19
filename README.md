@@ -6,3 +6,13 @@ The Birdnet-Pi project focuses on the web UI and/or cloud-based, or at least ext
 
 
 ![IMG_8122](https://github.com/user-attachments/assets/0480f58f-ee95-4cad-81f0-268dc7058c4a)
+
+<h2>Usage</h2>
+Put this in your crontab:
+
+```
+# check for latest bird and display it on screen. ( every min)
+* * * * *	~/BirdNET-Pi/scripts/birdimage.sh > /dev/null 2>&1
+```
+
+This will run every minute, and the birdimage.sh script will display any detection that happened in the last minute.
